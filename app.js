@@ -1,4 +1,5 @@
 const express = require("express");
+const res = require("express/lib/response");
 const app = express();
 const port = 3000;
 
@@ -36,3 +37,10 @@ app.post('/v1/explorers', (req, res) => {
   const requestBody = req.body;
   res.status(201).json({message: 'Created'})
 })
+
+app.put('/v1/explorers/:id', (req, res) => {
+  console.log(`API Explorers PUT request ${new Date()}`);
+  console.log(`Update explorer with Id ${req.params.id}`);
+  const requestBody = req.body;
+  res.status(200).json({messsage: 'Updated!'});
+})  
