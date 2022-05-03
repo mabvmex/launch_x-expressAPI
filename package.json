@@ -1,0 +1,22 @@
+{
+  "name": "launch_x-expressapi",
+  "version": "1.0.0",
+  "description": "Servidor Express + API",
+  "main": "index.js",
+  "scripts": {
+    "test": "node .node_modules/.bin/jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mabvmex/launch_x-expressAPI.git"
+  },
+  "author": "mabvmex",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mabvmex/launch_x-expressAPI/issues"
+  },
+  "homepage": "https://github.com/mabvmex/launch_x-expressAPI#readme",
+  "dependencies": {
+    "express": "^4.18.1"
+  }
+}
